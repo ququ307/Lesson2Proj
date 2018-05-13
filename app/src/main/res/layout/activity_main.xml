@@ -30,6 +30,7 @@
     android:layout_weight="0.03"/>
         <Button
             android:layout_width="164dp"
-            android:layout_height="82dp"/>
+            android:layout_height="82dp"
+            android:text="按钮"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

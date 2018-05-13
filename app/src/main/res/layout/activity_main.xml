@@ -1,36 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.a10028.lesson2proj.MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-    <LinearLayout
-        android:layout_width="1000dp"
-        android:layout_height="82dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp"
-        android:weightSum="1">
 <Button
-    android:layout_width="164dp"
-    android:layout_height="82dp"
-    android:text="buton"
-    tools:layout_editor_absoluteY="0dp"
-    tools:layout_editor_absoluteX="1dp"
-    android:layout_weight="0.03"/>
-        <Button
-            android:layout_width="164dp"
-            android:layout_height="82dp"
-            android:text="按钮"/>
-    </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+    android:id="@+id/btn_center"
+    android:layout_centerInParent="true"
+
+    android:layout_width="100dp"
+
+    android:layout_height="100dp"
+    android:text="中心"
+    android:background="#d81c15"
+   />
+
+    <Button
+        android:layout_toLeftOf="@id/btn_center"
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="西方"
+        android:background="#53d118"
+
+        />
+    <Button
+        android:layout_above="@id/btn_center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="北方"
+        android:background="#c4a819"
+
+        />
+
+    <Button
+        android:layout_toRightOf="@id/btn_center"
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="东方"
+        android:background="#3344ff"
+
+        />
+    <Button
+        android:layout_below="@id/btn_center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="南方"
+        android:background="#710e80"
+        />
+
+    </RelativeLayout>
+

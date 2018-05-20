@@ -6,18 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.a10028.lesson2proj.MainActivity">
-<Button
+<TextView
     android:id="@+id/btn_center"
     android:layout_centerInParent="true"
-
     android:layout_width="100dp"
-
+    android:text="世界中心"
+    android:gravity="center"
     android:layout_height="100dp"
-    android:text="中心"
     android:background="#d81c15"
    />
 
     <Button
+        android:id="@+id/button1"
         android:layout_toLeftOf="@id/btn_center"
         android:layout_centerVertical="true"
         android:layout_width="100dp"
@@ -27,25 +27,25 @@
 
         />
     <Button
+        android:id="@+id/button2"
         android:layout_above="@id/btn_center"
         android:layout_centerHorizontal="true"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="北方"
         android:background="#c4a819"
-
         />
-
     <Button
+        android:id="@+id/button3"
         android:layout_toRightOf="@id/btn_center"
         android:layout_centerVertical="true"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="东方"
         android:background="#3344ff"
-
         />
     <Button
+        android:id="@+id/button4"
         android:layout_below="@id/btn_center"
         android:layout_centerHorizontal="true"
         android:layout_width="100dp"
@@ -53,6 +53,19 @@
         android:text="南方"
         android:background="#710e80"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <TextView
+            android:id="@+id/ccc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="相信自己是最棒的 !"
+            android:gravity="center"
+           android:textSize="30dp"
+            android:textColor="#d42e1f"/>
+    </LinearLayout>
 
     </RelativeLayout>
 

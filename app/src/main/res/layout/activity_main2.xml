@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#33bc11e2"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.a10028.lesson2proj.Main2Activity">
+
+    <Button
+        android:id="@+id/love"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:background="#b03097"
+        android:text="I"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+
+        android:background="#e20e4a"
+        android:text="Love"
+        android:textSize="40dp"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="40dp"
+        android:text="you"
+        android:background="#ee09b9"
+        />
+
+
+</LinearLayout>

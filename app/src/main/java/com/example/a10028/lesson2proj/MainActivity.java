@@ -63,7 +63,8 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this,"世界那么大，我找到了你！",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent("com.example.a10028.lesson2proj.ACTION_2");
+                startActivity(intent);
                 Log.i(TAG, "had been onClick  东方");
             }
         });

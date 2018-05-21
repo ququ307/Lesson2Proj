@@ -33,8 +33,18 @@
         <activity android:name=".Main5Activity">
             <intent-filter>
                 <action android:name="com.example.a10028.lesson2proj.ACTION_1"/>
+
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".Main6Activity">
+            <intent-filter>
+                <action android:name="com.example.a10028.lesson2proj.ACTION_2"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main7Activity">
         </activity>
     </application>
 
